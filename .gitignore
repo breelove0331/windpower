@@ -1,0 +1,9 @@
+train/
+test/
+info.xlsx
+
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
+
