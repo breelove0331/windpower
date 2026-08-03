@@ -1,9 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local data from the competition
 train/
 test/
 info.xlsx
+sample_submission.csv
+baseline_submit.csv
 
-__pycache__/
-*.pyc
+# Submission CSVs and generated experiment outputs
+ontology_submit_*.csv
+*_submit.csv
+reports/
+outputs/
+tmp/
+experiments/
 
-.ipynb_checkpoints/
+# Keep curated portfolio artifacts if force-added intentionally
+!portfolio_wind_power_v28_group3_report.md
+!output/
+!output/pdf/
+!output/pdf/wind_power_v28_group3_portfolio_report_v*.pdf
 
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
